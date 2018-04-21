@@ -12,7 +12,7 @@ def create_map(data_file):
     # Iterate over data to create GeoJSON document
     # Use enumerate() to get the line as well as the index
     # which is the line number
-    for index, line in enumerate(data_file)
+    for index, line in enumerate(data_file):
 
         # Skip any zero coordinates
         if line['X'] == "0" or line["Y"] == "0":
